@@ -14,9 +14,6 @@ public interface CourseService {
 
 	public Course updateCourse(Course course);
 	
-	public void deletCourse(long parseLong);
-
-	//	List<Course> deletCourse(long courseId);
-	
+	public void deletCourse(long parseLong);	
 
 }
